@@ -5,4 +5,7 @@ components:
   - container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
       sourceMapping: /projects
+      env:
+        - name: DOTNET_RPM_VERSION
+          value: 8.0
     name: universal-developer-image
