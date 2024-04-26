@@ -1,7 +1,8 @@
-schemaVersion: 2.1.0
+schemaVersion: 2.2.0
+metadata:
+  name: dotnetwebapi-u6is
 components:
   - container:
-      image: registry.access.redhat.com/ubi8/dotnet-80-runtime
+      image: quay.io/devfile/universal-developer-image:ubi8-latest
       sourceMapping: /projects
     name: universal-developer-image
-
