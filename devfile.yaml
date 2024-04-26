@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: registry.access.redhat.com/ubi8/dotnet-80
+      image: registry.access.redhat.com/ubi8/dotnet-60:6.0-45
       memoryLimit: 2Gi
       mountSources: true
       env:
