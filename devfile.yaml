@@ -7,5 +7,5 @@ components:
       sourceMapping: /projects
       env:
         - name: DOTNET_RPM_VERSION
-          value: 8.0
+          value: "8.0"
     name: universal-developer-image
