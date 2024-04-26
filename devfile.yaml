@@ -1,0 +1,7 @@
+schemaVersion: 2.1.0
+components:
+  - container:
+      image: registry.access.redhat.com/ubi8/dotnet-80-runtime
+      sourceMapping: /projects
+    name: universal-developer-image
+
