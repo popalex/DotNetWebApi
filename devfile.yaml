@@ -12,7 +12,7 @@ metadata:
 components:
   - name: dotnet
     container:
-      image: quay.io/popalx/base-developer-image-by-alex:ubi8-latest
+      image: quay.io/popalx/popalx/universal-developer-image-by-alex:ubi8-latest
       args: ["tail", "-f", "/dev/null"]
       mountSources: true
       env:
